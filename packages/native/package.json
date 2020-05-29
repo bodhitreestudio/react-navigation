@@ -14,10 +14,10 @@
     "url": "https://github.com/react-navigation/react-navigation/issues"
   },
   "homepage": "https://reactnavigation.org",
-  "main": "lib/commonjs/index.js",
-  "react-native": "src/index.tsx",
-  "source": "src/index.tsx",
-  "module": "lib/module/index.js",
+  "main": "src",
+  "react-native": "src",
+  "source": "src",
+  "module": "src",
   "types": "lib/typescript/src/index.d.ts",
   "files": [
     "src",
@@ -33,6 +33,11 @@
     "clean": "del lib"
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-safe-area-context": "^2.0.3",
+    "react-native-screens": "^2.8.0",
+    "react-native-reanimated": "^1.9.0",
     "@react-navigation/core": "^5.9.0"
   },
   "devDependencies": {
